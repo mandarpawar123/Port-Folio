@@ -75,7 +75,26 @@
         min-height: 500px;
     }
 
+   
+  
+  
+}
+
+@media (max-width:484px){
+    .navbar > .container{
+     display: flex;
+    flex-direction: row;
+  
   
 
-    
+   }
+   .navbar > .container .navbar-toggler{
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+
 }
+    
