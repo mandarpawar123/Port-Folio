@@ -13,7 +13,7 @@
 
     /* 2.navbar */
     .header-scrolled{
-            height: auto; 
+            height: 100px; 
 
     }
     .header_wrapper .menu-navbar-nav{
@@ -83,17 +83,24 @@
 @media (max-width:484px){
     .navbar > .container{
      display: flex;
-    flex-direction: row;
+     flex-direction: column;
+     position: relative;
+   
   
   
 
    }
    .navbar > .container .navbar-toggler{
     position: absolute;
-    right: 0;
-    display: flex;
-    flex-wrap: wrap;
-   }
+    margin-left: 334px;
+    
+    
+    
+    
+}
+.navbar-nav{
+  padding: 160PX;
+}
 
 
 }
