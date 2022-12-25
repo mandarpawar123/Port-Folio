@@ -18,3 +18,12 @@ navBar.forEach(function(a){
         navCollapes.classList.remove("show");
     })
 })  
+
+
+
+// myloder
+var preloader = document.getElementById('loading');
+
+function myLoader(){
+    preloader.style.display='none';
+}
